@@ -1,0 +1,152 @@
+html {
+  background: url('img/homepage-hero@2x.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'lato', sans-serif;
+}
+
+#container {
+  margin: auto;
+  width: 1300 px;
+}
+
+#logo img {
+  width: 95px;
+  float: left;
+  margin-left: -25px;
+  position: absolute;
+}
+
+#nav-buttons {
+  text-align: center;
+  margin-right: 50px;
+}
+
+.nav-button {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+}
+
+
+#nav-buttons-right {
+  text-align: end;
+  margin-right: -20px;
+  margin-top: -2.2%
+}
+
+.nav-button-right a {
+  color: white;
+  text-decoration: none;
+  margin-top: 2.5%;
+}
+
+#content {
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-bottom: 200px;
+}
+
+#content #marketing-content {
+  margin-top: 15px;
+  margin-right: 50px;
+  text-align: center;
+  color: white;
+}
+
+#line-1 {
+  font-size: 2.5em;
+}
+
+#line-2 {
+  font-size: 2.5em;
+}
+
+#line-3 {
+  text-align: center;
+  margin-top: 1.5%;
+  padding-top: 5px;
+}
+
+.newsletter {
+  font-size: 0.9em;
+  color: white; 
+  margin-right: 75px;
+}
+
+#buttons {
+  text-align: center;
+  margin-top: 25px;
+  margin-right: 75px;
+}
+
+.button {
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: dimgray;
+  color: white;
+  padding: 10px 24px 10px 24px;
+  max-width: 30px;
+  text-decoration: none !important;
+  font-size: 0.9em;
+}
+
+.button:hover {
+  border: 1px solid white;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 1250px;
+  height: 30px;
+  text-align: center;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+  font-size: .8em;
+}
+
+#flag {
+  width: 20px;
+  margin-bottom: -5px;
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 25px;
+    height: 2px;
+    background-color: white;
+    margin: 6px;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px) ;
+    transform: rotate(-45deg) translate(-6px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -6px) ;
+    transform: rotate(45deg) translate(-6px, -6px) ;
+}
